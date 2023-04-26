@@ -1,22 +1,26 @@
 <template>
-  <div class="container">
-    <div class="row py-4 align-items-center">
-      <div class="col-lg-2">
+  <div class="container-lg">
+    <div class="row py-4 justify-content-between align-items-center">
+      <div class="col-lg-2 col-md-3">
         <img
           class="img-fluid"
           src="../assets/images/avada-marketing-logo.png"
           alt="AvadaConsultant Logo"
         />
       </div>
-      <div class="col-lg-6 me-auto">
+      <div class="col-lg-7 col-md-7">
         <NavbarComponent />
       </div>
-      <div class="col-lg-auto pt-1">
-        <i class="fa-solid fa-phone pe-2"></i>
-        <span>(555) 802-1234</span>
-      </div>
-      <div class="col-lg-auto">
-        <button id="header-button" class="btn px-4 py-2">Free Quote</button>
+      <div class="col-lg-3">
+        <div class="row align-items-center justify-content-end">
+          <div class="col-lg-auto d-lg-block d-md-none pt-1 ms-au">
+            <i class="fa-solid fa-phone pe-2"></i>
+            <span>(555) 802-1234</span>
+          </div>
+          <div class="col-lg-auto col-md-auto">
+            <button id="header-button" class="btn px-4">Free Quote</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -37,6 +41,7 @@ export default {
 #header-button {
   color: $orange-color;
   background-color: $light-orange-bg;
+  padding-top: 0.5rem;
   font-weight: 700;
 
   &:hover {
