@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/cambay": "^4.5.10",
     "@fortawesome/fontawesome-free": "^6.4.0",
     "bootstrap": "^5.2.3",
     "sass": "^1.62.1",

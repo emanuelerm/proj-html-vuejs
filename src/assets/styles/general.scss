@@ -1,0 +1,16 @@
+@use "./partials/variables" as *;
+
+$fa-font-path: "./webfonts";
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import "@fontsource/Cambay/index.css";
+@import "@fontsource/Cambay/400.css";
+@import "@fontsource/Cambay/400-italic.css";
+@import "@fontsource/Cambay/700.css";
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family: $main-font;
+}
