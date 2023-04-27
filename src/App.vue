@@ -1,6 +1,6 @@
 <template>
   <header>
-    <HeaderComponent />
+    <HeaderComponent :store="store.headerNavbar" />
   </header>
   <main>
     <JumboComponent />

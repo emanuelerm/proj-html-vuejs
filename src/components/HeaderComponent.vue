@@ -10,7 +10,7 @@
       </div>
       <div class="col-lg-7 col-md-7">
         <ul class="d-flex mb-0 ps-0">
-          <NavbarComponent v-for="(el, index) in store.headerNavbar" :el="el" />
+          <NavbarComponent v-for="(el, index) in store" :el="el" />
         </ul>
       </div>
       <div class="col-lg-3 col-md-2">
@@ -29,17 +29,17 @@
 </template>
 
 <script>
-import { store } from "../data/store";
 import NavbarComponent from "./NavbarComponent.vue";
 export default {
   name: "HeaderComponent",
   data() {
-    return {
-      store,
-    };
+    return {};
   },
   components: {
     NavbarComponent,
+  },
+  props: {
+    store: Array,
   },
 };
 </script>
