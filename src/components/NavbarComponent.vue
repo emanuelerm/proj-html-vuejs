@@ -1,22 +1,17 @@
 <template>
-  <ul class="d-flex mb-0 ps-0">
-    <li
-      v-for="(el, index) in store.headerNavbar"
-      class="text-capitalize list-group-item mt-2 mx-auto"
-    >
-      <a :href="index">{{ el }}</a>
-    </li>
-  </ul>
+  <li class="text-capitalize list-group-item mt-2 mx-auto">
+    <a href="#">{{ el }}</a>
+  </li>
 </template>
 
 <script>
-import { store } from "../data/store";
 export default {
   name: "NavbarComponent",
+  props: {
+    el: String,
+  },
   data() {
-    return {
-      store,
-    };
+    return {};
   },
 };
 </script>

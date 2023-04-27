@@ -20,4 +20,12 @@ export const store = reactive({
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante orci convallis gravida et at massa.",
   infoCardIcon: "",
   infoCardPath: "image",
+  partnersImgPath: [
+    "abstract",
+    "cglobal",
+    "next",
+    "hemisferio",
+    "spaces",
+    "digitalbox",
+  ],
 });

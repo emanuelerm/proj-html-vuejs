@@ -15,6 +15,22 @@
         />
       </div>
     </section>
+    <section id="partners">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="text-capitalize">some brands we work with</h2>
+            <p>Quisque aliquet, libero consequat elementum convallis.</p>
+          </div>
+          <div class="row justify-content-center">
+            <PartnersCard
+              v-for="(path, index) in store.partnersImgPath"
+              :path="path"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -23,12 +39,14 @@ import { store } from "./data/store";
 import HeaderComponent from "./components/HeaderComponent.vue";
 import JumboComponent from "./components/JumboComponent.vue";
 import ServiceComponent from "./components/ServiceComponent.vue";
+import PartnersCard from "./components/PartnersCard.vue";
 export default {
   name: "App",
   components: {
     HeaderComponent,
     JumboComponent,
     ServiceComponent,
+    PartnersCard,
   },
   data() {
     return {
@@ -38,4 +56,15 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#partners {
+  margin-top: 4rem;
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+</style>
