@@ -33,6 +33,7 @@
       </div>
     </section>
     <CaseComponent />
+    <OurWorkComponent />
   </main>
 </template>
 
@@ -44,6 +45,7 @@ import ServiceComponent from "./components/ServiceComponent.vue";
 import PartnersCard from "./components/PartnersCard.vue";
 import AvadaCard from "./components/AvadaCard.vue";
 import CaseComponent from "./components/CaseComponent.vue";
+import OurWorkComponent from "./components/OurWorkComponent.vue";
 export default {
   name: "App",
   components: {
@@ -53,6 +55,7 @@ export default {
     PartnersCard,
     AvadaCard,
     CaseComponent,
+    OurWorkComponent,
   },
   data() {
     return {
