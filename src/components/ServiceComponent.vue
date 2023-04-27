@@ -98,6 +98,9 @@ export default {
     font-size: 1.2rem;
     font-weight: 700;
     padding-top: 0.5rem;
+    &:hover {
+      background-color: #d3530f;
+    }
   }
 }
 </style>

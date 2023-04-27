@@ -27,10 +27,12 @@
               v-for="(path, index) in store.partnersImgPath"
               :path="path"
             />
+            <AvadaCard />
           </div>
         </div>
       </div>
     </section>
+    <CaseComponent />
   </main>
 </template>
 
@@ -40,6 +42,8 @@ import HeaderComponent from "./components/HeaderComponent.vue";
 import JumboComponent from "./components/JumboComponent.vue";
 import ServiceComponent from "./components/ServiceComponent.vue";
 import PartnersCard from "./components/PartnersCard.vue";
+import AvadaCard from "./components/AvadaCard.vue";
+import CaseComponent from "./components/CaseComponent.vue";
 export default {
   name: "App",
   components: {
@@ -47,6 +51,8 @@ export default {
     JumboComponent,
     ServiceComponent,
     PartnersCard,
+    AvadaCard,
+    CaseComponent,
   },
   data() {
     return {

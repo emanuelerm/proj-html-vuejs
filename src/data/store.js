@@ -28,4 +28,24 @@ export const store = reactive({
     "spaces",
     "digitalbox",
   ],
+  caseInfo: [
+    {
+      title:
+        "How Spaces attracted five millions visitors by improving the content",
+      value: "200%",
+      subtitle: "Higher revenue from digital",
+    },
+    {
+      title:
+        "Creativity helped Hemisferio to increase their brand reach vertically",
+      value: "10x",
+      subtitle: "Sales increase with the same ad spend",
+    },
+    {
+      title: "How DigitalBox used AI-powered data insight to boost sales",
+      value: "3-year",
+      subtitle: "Partnership with Avada Consultant",
+    },
+  ],
+  caseImgPath: "case-studies-",
 });
