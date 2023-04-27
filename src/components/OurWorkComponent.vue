@@ -28,6 +28,49 @@
         </div>
       </div>
     </section>
+    <section id="resources">
+      <div class="container">
+        <div class="row justify-content-between align-items-end mb-5">
+          <div class="col-lg-6">
+            <h2 class="text-capitalize">
+              marketing resources: insider advice
+              <span class="text-lowercase">on</span> how
+              <span class="text-lowercase">to</span> increase online sales
+            </h2>
+          </div>
+          <div class="col-lg-auto ms-auto">
+            <button class="text-capitalize">explore all resources</button>
+          </div>
+        </div>
+        <div class="row row-cols-3 justify-content-space-between pt-5">
+          <div class="col-lg-4">
+            <div class="img-container">
+              <img src="../assets/images/blog-posts-6.jpg" alt="blog post 1" />
+              <h3 class="text-capitalize">
+                marketing tips and tricks for your website
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="img-container">
+              <img src="../assets/images/blog-posts-5.jpg" alt="blog post 2" />
+              <h3 class="text-capitalize">
+                how to write stunning blog post titles
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="img-container">
+              <img src="../assets/images/blog-posts-4.jpg" alt="blog post 3" />
+              <h3 class="text-capitalize">
+                techniques <span class="text-lowercase">to</span> reduce
+                facebook ads spend
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </section>
 </template>
 
@@ -68,6 +111,39 @@ export default {
       h5 {
         margin-top: 2.5rem;
         font-weight: 700;
+      }
+    }
+  }
+  #resources {
+    padding: 8rem 0;
+    h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-right: 4rem;
+      margin-bottom: 0;
+    }
+    button {
+      color: $white-color;
+      background-color: $orange-color;
+      height: 3rem;
+      border-radius: 10px;
+      border: none;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.7rem 2rem 0.2rem;
+      &:hover {
+        background-color: #d3530f;
+      }
+    }
+    .img-container {
+      width: 95%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      h3 {
+        margin-top: 2rem;
+        font-size: 1.9rem;
       }
     }
   }
