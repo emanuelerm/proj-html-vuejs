@@ -38,7 +38,8 @@ export default {
   background-image: url(../assets/images/marketing-intro.jpg);
   height: 45rem;
   background-position: 50%;
-  background-size: 118%;
+  background-size: cover;
+  background-repeat: no-repeat;
   #filter {
     background-color: #00000056;
     height: 45rem;

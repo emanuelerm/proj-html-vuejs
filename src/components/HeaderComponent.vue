@@ -11,13 +11,13 @@
       <div class="col-lg-7 col-md-7">
         <NavbarComponent />
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-2">
         <div class="row align-items-center justify-content-end">
-          <div class="col-lg-auto d-lg-block d-md-none pt-1 ms-au">
+          <div class="col-lg-6 d-lg-inline d-md-none pt-1 ms-au">
             <i class="fa-solid fa-phone pe-2"></i>
             <span>(555) 802-1234</span>
           </div>
-          <div class="col-lg-auto col-md-auto">
+          <div class="col-lg-6 col-md-auto">
             <button id="header-button" class="btn px-4">Free Quote</button>
           </div>
         </div>
