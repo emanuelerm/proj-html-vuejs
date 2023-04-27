@@ -56,7 +56,7 @@
     <div class="awards"></div>
     <div class="col-lg-3 mt-5">
       <div class="award-container mx-auto text-center">
-        <img src="../assets/images/award-a.png" alt="" />
+        <img src="../assets/images/award-a.png" alt="award a" />
         <p class="text-capitalize">
           winner seo master
           <span class="text-uppercase">magt</span>
@@ -67,7 +67,7 @@
     </div>
     <div class="col-lg-3 mt-5">
       <div class="award-container mx-auto text-center">
-        <img src="../assets/images/award-b.png" alt="" />
+        <img src="../assets/images/award-b.png" alt="award b" />
         <p class="text-capitalize">
           top social media agencies
           <br />
@@ -77,7 +77,7 @@
     </div>
     <div class="col-lg-3 mt-5">
       <div class="award-container mx-auto text-center">
-        <img src="../assets/images/award-c.png" alt="" />
+        <img src="../assets/images/award-c.png" alt="award c" />
         <p class="text-capitalize">
           10 fastest growing abstract
           <br />
@@ -87,7 +87,7 @@
     </div>
     <div class="col-lg-3 mt-5">
       <div class="award-container mx-auto text-center">
-        <img src="../assets/images/award-d.png" alt="" />
+        <img src="../assets/images/award-d.png" alt="award d" />
         <p class="text-capitalize">
           national excellence agencie
           <br />
@@ -127,6 +127,7 @@ export default {
       width: 100%;
       height: auto;
       object-fit: cover;
+      border-radius: 15px;
     }
   }
   .text-container {
