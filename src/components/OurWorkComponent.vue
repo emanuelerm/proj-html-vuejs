@@ -45,6 +45,7 @@
         <div class="row row-cols-3 justify-content-space-between pt-5">
           <div class="col-lg-4">
             <div class="img-container mx-auto">
+              <div class="container-cust"></div>
               <img src="../assets/images/blog-posts-6.jpg" alt="blog post 1" />
               <h3 class="text-capitalize">
                 marketing tips and tricks for your website
@@ -53,6 +54,7 @@
           </div>
           <div class="col-lg-4">
             <div class="img-container mx-auto">
+              <div class="container-cust"></div>
               <img src="../assets/images/blog-posts-5.jpg" alt="blog post 2" />
               <h3 class="text-capitalize">
                 how to write stunning blog post titles
@@ -61,6 +63,7 @@
           </div>
           <div class="col-lg-4">
             <div class="img-container mx-auto">
+              <div class="container-cust"></div>
               <img src="../assets/images/blog-posts-4.jpg" alt="blog post 3" />
               <h3 class="text-capitalize">
                 techniques <span class="text-lowercase">to</span> reduce
@@ -137,9 +140,34 @@ export default {
     }
     .img-container {
       width: 95%;
+      position: relative;
+
       img {
         width: 100%;
         height: auto;
+      }
+      .container-cust {
+        width: 100%;
+        height: 263.46px;
+        position: absolute;
+        &:hover {
+          background: rgb(217, 217, 217);
+          background: -moz-linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0) 0%,
+            rgba(255, 89, 0, 0.6839110644257703) 99%
+          );
+          background: -webkit-linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0) 0%,
+            rgba(255, 89, 0, 0.6839110644257703) 99%
+          );
+          background: linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0) 0%,
+            rgba(255, 89, 0, 0.6839110644257703) 99%
+          );
+        }
       }
       h3 {
         margin-top: 2rem;

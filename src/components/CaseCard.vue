@@ -67,7 +67,6 @@ export default {
         rgba(217, 217, 217, 0) 0%,
         rgba(255, 89, 0, 0.6839110644257703) 99%
       );
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9d9d9",endColorstr="#ff5900",GradientType=1);
     }
   }
   .card-text {
