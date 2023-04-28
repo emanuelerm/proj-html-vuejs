@@ -48,4 +48,25 @@ export const store = reactive({
     },
   ],
   caseImgPath: "case-studies-",
+  footerLinks: [
+    {
+      title: "services",
+      links: [
+        "marketing plan",
+        "sales development",
+        "digital marketing",
+        "pricing",
+        "why us",
+        "case studies",
+      ],
+    },
+    {
+      title: "resources",
+      links: ["learning center", "video tutorials", "customers", "blog"],
+    },
+    {
+      title: "company",
+      links: ["who we are", "contact us", "careers"],
+    },
+  ],
 });

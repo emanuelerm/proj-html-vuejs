@@ -9,9 +9,9 @@
         </div>
         <div class="row row-cols-3 justify-content-center">
           <CaseCard
-            v-for="(caseEl, index) in store.caseInfo"
-            :img="store.caseImgPath + (index + 1)"
-            :alt="store.caseImgPath + 1"
+            v-for="(caseEl, index) in case"
+            :img="casePath + (index + 1)"
+            :alt="casePath + 1"
             :title="caseEl.title"
             :value="caseEl.value"
             :subtitle="caseEl.subtitle"
@@ -26,14 +26,13 @@
 </template>
 
 <script>
-import { store } from "../data/store";
 import CaseCard from "./CaseCard.vue";
 export default {
   name: "CaseComponent",
-  data() {
-    return {
-      store,
-    };
+
+  props: {
+    case: Object,
+    casePath: String,
   },
   components: { CaseCard },
 };

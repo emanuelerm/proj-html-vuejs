@@ -44,7 +44,7 @@
         </div>
         <div class="row row-cols-3 justify-content-space-between pt-5">
           <div class="col-lg-4">
-            <div class="img-container">
+            <div class="img-container mx-auto">
               <img src="../assets/images/blog-posts-6.jpg" alt="blog post 1" />
               <h3 class="text-capitalize">
                 marketing tips and tricks for your website
@@ -52,7 +52,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="img-container">
+            <div class="img-container mx-auto">
               <img src="../assets/images/blog-posts-5.jpg" alt="blog post 2" />
               <h3 class="text-capitalize">
                 how to write stunning blog post titles
@@ -60,7 +60,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="img-container">
+            <div class="img-container mx-auto">
               <img src="../assets/images/blog-posts-4.jpg" alt="blog post 3" />
               <h3 class="text-capitalize">
                 techniques <span class="text-lowercase">to</span> reduce
