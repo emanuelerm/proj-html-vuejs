@@ -1,7 +1,6 @@
 <template>
   <HeaderComponent :store="store.headerNavbar" />
   <MainComponent
-    :store="store"
     :infocards="store.infoCards"
     :img="store.infoCardPath"
     :text="store.infoCardTxt"

@@ -16,7 +16,7 @@
   </div>
   <div
     id="chat"
-    :class="active ? 'cursor-dsb wobble-hor-bottom' : ''"
+    :class="active ? 'cursor-dsb wobble-hor-bottom' : 'animation'"
     @click="openChat"
   >
     <i class="fa-solid fa-message"></i>
@@ -69,6 +69,10 @@ export default {
     animation: wobble-hor-bottom 0.8s both;
     scale: 0.8;
     transition: scale 0.3s ease-out;
+  }
+  &.animation {
+    scale: 1;
+    transition: all 0.3s ease-in-out;
   }
   &.cursor-dsb {
     cursor: default;
